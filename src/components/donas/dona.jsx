@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { useGLTF } from "@react-three/drei";
-import CylinderMasa from "./cylinderMasa";
 
 const Dona = ({ props }) => {
   const { nodes, materials } = useGLTF("/dona8.glb");
+
   return (
     <>
       <group {...props} scale={7}>

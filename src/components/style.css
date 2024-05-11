@@ -1,14 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  background-color: rgb(167, 108, 231);
+  color: black;
 }
 .container-main {
   height: 100vh;
   width: 100%;
-  background-color: rgb(45, 45, 45);
-  color: #fff;
+  color: #0000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .escena {
   height: 100vh;
   width: 100%;
+}
+/* Overlay */
+.cont-Overlay {
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  width: 50%;
+  left: 20%;
+  text-align: center;
+}
+.cont-button {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boton {
+  padding: 0.5rem 2.5rem;
+  background-color: #ffd061;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  transition: 600ms all ease-in-out;
+}
+.boton:hover {
+  background-color: #ffecc1;
+}
+.boton-si {
+  left: 20%;
+}
+.boton-no {
+  right: 20%;
 }
