@@ -27,7 +27,7 @@ const HomeYEscena = () => {
     }
   };
   useEffect(() => {
-    if (contador >= 4 && !modal && confirmacion) {
+    if (contador >= 2 && !modal && confirmacion) {
       setModal(true);
     }
   }, [contador]);
