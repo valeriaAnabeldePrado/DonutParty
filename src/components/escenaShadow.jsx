@@ -32,6 +32,7 @@ export default function EscenaShadow({ contador }) {
     <Canvas
       shadows
       dpr={[1, 2]}
+      className="canvas"
       style={{ height: "100vh" }}
       camera={{ position: [-4, 4, 10], fov: 50 }}
     >

@@ -13,6 +13,8 @@ export const EscenaExp = ({ contador }) => {
         maxAzimuthAngle={Math.PI / 4}
         minPolarAngle={Math.PI / 4} //Arriba
         maxPolarAngle={Math.PI / 3} //Abajo
+        minDistance={5}
+        maxDistance={15}
       />
       <Cielo />
       {contador >= 1 ? <GrupoUno /> : ""}

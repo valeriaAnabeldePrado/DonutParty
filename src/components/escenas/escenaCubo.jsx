@@ -41,8 +41,8 @@ const EscenaCubo = () => {
         rotation={[0, -Math.PI / 2, 0]}
         scale={[1, 1, 1]}
       >
-        <mesh receiveShadow>
-          <planeGeometry args={[100, 100]} receiveShadow />
+        <mesh>
+          <planeGeometry args={[100, 100]} />
           <shadowMaterial color="#171717" opacity={0.5} />
         </mesh>
       </PlaneM>
