@@ -20,7 +20,7 @@ const LoaderMio = ({ children }) => {
       {loading ? (
         <div className="loaderContainer">
           <h1>Te invito a mi cumple!</h1>
-          <h2>Es el día jueves 17/05</h2>
+          <h2>Es el día jueves 16/05</h2>
           <div className="cont-img">
             <Image src={pepa} alt="pepa" fill className="pepa" />
           </div>

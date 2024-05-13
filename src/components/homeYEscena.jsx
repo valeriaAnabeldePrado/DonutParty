@@ -38,7 +38,7 @@ const HomeYEscena = () => {
         <section className="cont-overlay-Section">
           <h2 className="textH">Te espero en El Botellón</h2>
           <h2 className="textH">Chacabuco 654, Nueva Córdoba</h2>
-          <h2 className="textH">día jueves 17/05, 21hs</h2>
+          <h2 className="textH">día jueves 16/05, 21hs</h2>
         </section>
       </section>
       <section className="cont-button">
