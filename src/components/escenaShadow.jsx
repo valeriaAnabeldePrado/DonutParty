@@ -51,7 +51,9 @@ export default function EscenaShadow({ contador }) {
         frictionGravity={[0, 1, 0]}
         defaultContactMaterial={{ restitution: 0.3 }}
       >
-        <EscenaExp contador={contador} />
+        <Debug>
+          <EscenaExp contador={contador} />
+        </Debug>
       </Physics>
     </Canvas>
   );

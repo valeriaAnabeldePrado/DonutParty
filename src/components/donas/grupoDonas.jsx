@@ -3,7 +3,7 @@ import CylinderMasa from "./cilinderDonas";
 import Dona from "./dona";
 
 const GrupoUno = () => {
-  const donas = Array.from({ length: 15 }, (_, index) => (
+  const donas = Array.from({ length: 30 }, (_, index) => (
     <CylinderMasa
       key={index}
       args={[1.6 / 2, 1.6 / 2, 0.6]}

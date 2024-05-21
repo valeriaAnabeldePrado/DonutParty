@@ -26,19 +26,19 @@ const HomeYEscena = () => {
       setContadorNo("Así sos");
     }
   };
-  useEffect(() => {
-    if (contador >= 2 && !modal && confirmacion) {
-      setModal(true);
-    }
-  }, [contador]);
-  console.log(modal);
+  // useEffect(() => {
+  //   if (contador >= 10 && !modal && confirmacion) {
+  //     setModal(true);
+  //   }
+  // }, [contador]);
+  // console.log(modal);
   return (
     <>
       <section className="cont-Overlay">
         <section className="cont-overlay-Section">
-          <h2 className="textH">Te espero en El Botellón</h2>
-          <h2 className="textH">Chacabuco 654, Nueva Córdoba</h2>
-          <h2 className="textH">día jueves 16/05, 21hs</h2>
+          <h2 className="textH">Te espero en</h2>
+          <h2 className="textH">Avenida Siempre Viva</h2>
+          <h2 className="textH">Prueba Test</h2>
         </section>
       </section>
       <section className="cont-button">
@@ -52,11 +52,11 @@ const HomeYEscena = () => {
           </button>
         </div>
       </section>
-      {modal ? (
+      {/* {modal ? (
         <ModalMio setModal={setModal} setConfirmacion={setConfirmacion} />
       ) : (
         ""
-      )}
+      )} */}
       <Suspense fallback={<LoaderEscena />}>
         <EscenaShadow contador={contador} />
       </Suspense>
