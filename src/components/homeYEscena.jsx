@@ -37,8 +37,8 @@ const HomeYEscena = () => {
       <section className="cont-Overlay">
         <section className="cont-overlay-Section">
           <h2 className="textH">Te espero en</h2>
-          <h2 className="textH">Avenida Siempre Viva</h2>
-          <h2 className="textH">Prueba Test</h2>
+          <h2 className="textH">Fructuoso Rivera 260</h2>
+          <h2 className="textH">Bar ejemplo, no faltes!</h2>
         </section>
       </section>
       <section className="cont-button">
